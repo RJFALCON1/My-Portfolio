@@ -1,0 +1,61 @@
+body{
+    background-color: #1338BE;
+}
+marquee{
+    background-color: #281E5D;
+    height:25pt;
+    font-size: 20pt;
+    border-style:double;
+    border-radius: 25px;
+    border-width: 6px;
+    color: whitesmoke;
+    font-weight: bold;
+    border-color: #52B2BF;
+}
+.about{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-style: double;
+    border-color: #52B2BF;
+    border-radius: 25px;
+    background-color: #281E5D;
+    border-width: 10pt;
+    margin: 50pt ;
+    padding: 25pt;
+}
+.gamesheader{
+    align-self: center;
+    margin-left:400pt;
+    text-decoration: underline;
+}
+.games{
+    border-style: double;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 100%;
+    border-radius: 25pt;
+    background-color: #281E5D;
+    border-color: #52B2BF;
+    border-width: 10pt;
+    margin: 50pt ;
+}
+.eachGame{
+    flex-basis: 35%;
+    margin:30px;
+}
+h1{
+    color: whitesmoke;
+}
+p{
+    color: whitesmoke;
+    font-size: 30pt;
+    text-decoration: underline;
+    margin-left: 25pt;
+
+}
+.border{
+    border-radius: 25pt;
+    border-color:#52B2BF;
+}
